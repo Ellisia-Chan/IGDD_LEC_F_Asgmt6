@@ -9,8 +9,9 @@ namespace SceneTransition {
 
         private void Start() {
             LoadNextScene("Level1");
-
         }
+
+        // Load next scene
         public void LoadNextScene(string sceneName) {
             SceneManager.LoadScene(sceneName);
         }
